@@ -22,11 +22,28 @@ const StyledInput = styled.input`
   border-radius: 0px;
 `;
 
-const AuthInput = () => {
+const AuthInput = ({
+  type,
+  label,
+  value,
+  placeholder,
+  onChange,
+  onKeyDown,
+}) => {
   return (
     <StyledContainer>
-      <StyledLabel>label</StyledLabel>
-      <StyledInput type="text" placeholder="placeholder" />
+      <StyledLabel>{label}</StyledLabel>
+      <StyledInput
+        type={type || 'text'}
+        value={value}
+        placeholder={placeholder}
+        onChange={(e) => onChange?.(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            onKeyDown?.();
+          }
+        }}
+      />
     </StyledContainer>
   );
 };

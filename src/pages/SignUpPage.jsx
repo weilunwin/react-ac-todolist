@@ -17,8 +17,7 @@ const SignUpPage = () => {
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const { register, isAuthenicated } = useAuth();
-
+  const { register, isAuthenticated } = useAuth();
   const handleClick = async () => {
     const success = await register({
       username,
@@ -44,10 +43,10 @@ const SignUpPage = () => {
     });
   };
   useEffect(() => {
-    if (isAuthenicated) {
+    if (isAuthenticated) {
       navigate('/todos');
     }
-  }, [navigate, isAuthenicated]);
+  }, [navigate, isAuthenticated]);
 
   return (
     <AuthContainer>

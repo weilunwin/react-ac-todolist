@@ -5,13 +5,13 @@
     "main.js.map": "/react-ac-todolist/static/js/main.8a14feeb.chunk.js.map",
     "runtime-main.js": "/react-ac-todolist/static/js/runtime-main.9df0d9cb.js",
     "runtime-main.js.map": "/react-ac-todolist/static/js/runtime-main.9df0d9cb.js.map",
-    "static/js/2.336fa31d.chunk.js": "/react-ac-todolist/static/js/2.336fa31d.chunk.js",
-    "static/js/2.336fa31d.chunk.js.map": "/react-ac-todolist/static/js/2.336fa31d.chunk.js.map",
+    "static/js/2.e9d69892.chunk.js": "/react-ac-todolist/static/js/2.e9d69892.chunk.js",
+    "static/js/2.e9d69892.chunk.js.map": "/react-ac-todolist/static/js/2.e9d69892.chunk.js.map",
     "static/js/3.149ba149.chunk.js": "/react-ac-todolist/static/js/3.149ba149.chunk.js",
     "static/js/3.149ba149.chunk.js.map": "/react-ac-todolist/static/js/3.149ba149.chunk.js.map",
     "index.html": "/react-ac-todolist/index.html",
     "static/css/main.81e9703d.chunk.css.map": "/react-ac-todolist/static/css/main.81e9703d.chunk.css.map",
-    "static/js/2.336fa31d.chunk.js.LICENSE.txt": "/react-ac-todolist/static/js/2.336fa31d.chunk.js.LICENSE.txt",
+    "static/js/2.e9d69892.chunk.js.LICENSE.txt": "/react-ac-todolist/static/js/2.e9d69892.chunk.js.LICENSE.txt",
     "static/media/ac-logo.f4e0f3cb.svg": "/react-ac-todolist/static/media/ac-logo.f4e0f3cb.svg",
     "static/media/check-active.95ca055c.svg": "/react-ac-todolist/static/media/check-active.95ca055c.svg",
     "static/media/check-circle.30720b46.svg": "/react-ac-todolist/static/media/check-circle.30720b46.svg",
@@ -19,7 +19,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9df0d9cb.js",
-    "static/js/2.336fa31d.chunk.js",
+    "static/js/2.e9d69892.chunk.js",
     "static/css/main.81e9703d.chunk.css",
     "static/js/main.8a14feeb.chunk.js"
   ]

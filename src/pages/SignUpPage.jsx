@@ -42,6 +42,28 @@ const SignUpPage = () => {
       position: 'top',
     });
   };
+
+  const handleKeyDown = async () => {
+    const success = await register({ username, password, email });
+    if (success) {
+      Swal.fire({
+        title: '註冊成功!',
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 1000,
+        position: 'top',
+      });
+      return;
+    }
+    Swal.fire({
+      title: '註冊失敗!',
+      icon: 'error',
+      showConfirmButton: false,
+      timer: 1000,
+      position: 'top',
+    });
+  };
+
   useEffect(() => {
     if (isAuthenticated) {
       navigate('/todos');
@@ -78,6 +100,7 @@ const SignUpPage = () => {
           label="密碼"
           placeholder="請輸入密碼"
           value={password}
+          onKeyDown={handleKeyDown}
           onChange={(passwordInputValue) => setPassword(passwordInputValue)}
         />
       </AuthInputContainer>
